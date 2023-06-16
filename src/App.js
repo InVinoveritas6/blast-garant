@@ -18,8 +18,8 @@ function App() {
       <Header/>
       <div className='body'>
         <MainPage/>
-        {/* <AboutUs/>
-        <Prices/>
+         <AboutUs/>
+       {/* <Prices/>
         <ExamplesPage/>
         <ReviewsPage/>
         <Contacts/> */}
