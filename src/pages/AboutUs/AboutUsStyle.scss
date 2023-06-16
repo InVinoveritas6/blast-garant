@@ -1,0 +1,41 @@
+.about-us-block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 95px);
+}
+
+.about-us-text-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    color: #fff;
+}
+
+.about-us-text {
+    text-align: center;
+    font-size: 24px;
+    max-width: 1100px;
+}
+
+.about-us-info-block {
+    height: 100%;
+    color: #fff;
+}
+
+.last-line {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.last-line span {
+    position: absolute;
+    background: #FED131;
+    left: auto;
+    bottom: -8px;
+    width: 750px;
+    height: 2px;
+}

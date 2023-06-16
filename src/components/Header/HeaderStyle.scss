@@ -9,16 +9,63 @@
     height: 100px;
     background: #1A1A1A;
     color: #fff;
+    z-index: 9999;
 }
 
 .header-body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
 }
 
-.header-body div {
+.header-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.test {
+    padding: 0 30px;
+
+}
+
+.header-item a {
     font-size: 22px;
     font-weight: 100;
+    color: #929292;
+    text-decoration: none;
+    transition: 0.3s;
 }
+
+.header-item span {
+    position: absolute;
+    bottom: -5px;
+    width: 120%;
+    height: 2px;
+    background: #FED131;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+
+.header-item {
+    &:hover {
+        span {
+            transform: scaleX(1);
+        }
+        a {
+            color: #fff;
+        }
+    }
+} 
+
+.test1 {
+    span {
+        transform: scaleX(1);
+    }
+    a {
+        color: #fff;
+    }
+
+}
+

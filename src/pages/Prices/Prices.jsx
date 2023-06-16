@@ -1,12 +1,15 @@
 
+import CustomPageBlock from '../../components/CustomPageBlock/CustomPageBlock';
 //Style
 import './PricesStyle.scss'
 
 const Prices = () => {
     return (
-        <div style={{color: "#fff"}}>
-            Prices
-        </div>
+        <CustomPageBlock id={"prices"}>
+            <div>
+                Prices
+            </div>
+        </CustomPageBlock>
         )
     };
        

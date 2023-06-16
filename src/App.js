@@ -11,18 +11,21 @@ import Contacts from './pages/Contacts/Contacts';
 
 //Style
 import './App.css';
+import { useState } from 'react';
 
-function App() {
+const App = () => {
+  const [page, setPage] = useState('#mainPage')
+
   return (
     <div className='app'>
-      <Header/>
+      <Header page={page} setPage={setPage} />
       <div className='body'>
         <MainPage/>
          <AboutUs/>
-       {/* <Prices/>
+       <Prices/>
         <ExamplesPage/>
         <ReviewsPage/>
-        <Contacts/> */}
+        <Contacts/>
       </div>
     </div>
   );
