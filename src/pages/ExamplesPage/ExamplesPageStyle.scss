@@ -1,0 +1,15 @@
+.examples {
+    color: #fff;
+    height: calc(100% - 95px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.examples-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 750px;
+}
+

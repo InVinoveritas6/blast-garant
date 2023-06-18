@@ -1,0 +1,33 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 95px);
+}
+
+.review-block {
+    box-sizing: border-box;
+    width: 800px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 36px 7px #FED131;
+    border-radius: 10px;
+    padding: 40px 45px;
+}
+
+.review-text {
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.review-stars {
+    width: 265px;
+    height: 50px;
+    border: 1px solid #1a1a1a;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    img {
+        margin: 0 1px;
+    }
+}

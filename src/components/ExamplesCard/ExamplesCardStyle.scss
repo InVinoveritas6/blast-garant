@@ -1,0 +1,23 @@
+.examples-card {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 400px
+}
+
+.examples-card-text-block{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.example-card-text-title {
+    display: flex;
+    align-items: center;
+    height: 60%;
+    font-size: 22px;
+}
+
+.examples-card-text{
+    font-size: 16px;
+}
