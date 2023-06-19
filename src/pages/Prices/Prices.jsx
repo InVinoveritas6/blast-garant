@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import CustomPageBlock from "../../components/CustomPageBlock/CustomPageBlock";
 import PriceTableElements from "../../components/PriceTableElements/PriceTableElements";
 
@@ -8,11 +10,17 @@ import { serviceList } from "./core/serviceList";
 import "./PricesStyle.scss";
 
 const Prices = () => {
+  const [screenWidth, setScreenWidth] = useState();
+
+  useEffect(() => {
+    setScreenWidth(window.outerWidth);
+  }, []);
+
   return (
     <CustomPageBlock
       id={"prices"}
       title={"Цены"}
-      style={{ height: "calc(100vh - 50px)" }}
+      style={screenWidth <= 375 ? {height: "110vh"} :{ height: "calc(100vh - 50px)" }}
     >
       <div className="prices">
         <div className="prices-table-block">

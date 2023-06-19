@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import CustomPageBlock from "../../components/CustomPageBlock/CustomPageBlock";
 
@@ -13,15 +15,23 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const ReviewsPage = () => {
+    const [screenWidth, setScreenWidth] = useState();
+
+    useEffect(() => {
+      setScreenWidth(window.outerWidth);
+    }, []);
   return (
     <CustomPageBlock id={"reviews"} title={"Отзывы"}>
       <div className="reviews">
         <Swiper
-        slidesPerView={1}
-        centeredSlides={true}
-        spaceBetween={-1050}
         loop={true}
-        className="mySwiper"
+        autoplay={{
+            delay: 2000,
+            disableOnInteraction: true,
+          }}
+  
+        modules={[Autoplay]}
+        grabCursor={true}
         >
           {reviews.map((el, index) => {
             return (
@@ -33,7 +43,7 @@ const ReviewsPage = () => {
                     <img src="/images/Reviews/GoldStars.svg" alt="img" />
                     <img src="/images/Reviews/GoldStars.svg" alt="img" />
                     <img src="/images/Reviews/GoldStars.svg" alt="img" />
-                    <img src="/images/Reviews/Star.svg" alt="img" />
+                    <img src={el.stars === 1 ? "/images/Reviews/GoldStars.svg" : "/images/Reviews/Star.svg"} alt="img" />
                   </div>
                   <div className="review-name">{el.name}</div>
                 </div>

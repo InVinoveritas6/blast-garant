@@ -1,5 +1,6 @@
 
 .main-page {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     height: 100%;
@@ -41,4 +42,52 @@
     grid-area: subtitle;
     font-size: 30px;
     color: #fff;
+}
+
+@media (max-width: 1280px) {
+    .main-page-title{
+        font-size: 54px;
+    }
+    .main-page-subtitle{
+        font-size: 20px;
+    }
+    .main-page-logo{
+        width: 120px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-page {
+        justify-content: center;
+        background-image: url("../../../public/images/Header/MainPageTablet.png");
+    }
+    .main-page-block {
+        width: 80%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .main-page-title{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .main-page-subtitle{
+        font-size: 16px;
+    }
+    .main-page-logo{
+        width: 70px;
+        height: 65px;
+    }
+    .main-page-block {
+        width: 100%;
+        justify-content: center;
+    }
+    .main-page-content {
+        position: absolute;
+        top: 35%;
+    }
+
+
 }

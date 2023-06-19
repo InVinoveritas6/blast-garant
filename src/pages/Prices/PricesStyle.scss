@@ -9,3 +9,17 @@
     width: 1000px;
     height: 100%;
 }
+
+@media (max-width: 1280px) {
+    .prices-table-block{
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .prices-table-block{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+}

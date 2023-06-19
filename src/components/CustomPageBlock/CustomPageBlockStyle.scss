@@ -22,3 +22,28 @@
     height: 10px;
     background: #FED131;
 } 
+
+@media (max-width: 1280px) {
+    .custom-page-block {
+        height: calc(100vh - 80px);
+        padding-top: 80px;
+    }
+    .title-block{
+        padding: 20px 60px;
+        font-size: 35px;
+    }
+    .title-block span{
+        width: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .title-block span{
+        width: 100px;
+        height: 5px;
+    }
+    .title-block {
+        font-size: 30px;
+        padding: 20px;
+    }
+}

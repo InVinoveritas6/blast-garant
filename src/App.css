@@ -1,5 +1,10 @@
 .app {
   background: #1A1A1A;
+  width: 100vw;
+}
+
+.body {
+  width: 100vw;
 }
 
 

@@ -5,7 +5,7 @@ const ExamplesCard = ({img, workName, detailName}) => {
   return (
     <>
       <div className="examples-card">
-        <div className="expamples-card-img">
+        <div>
           <img src={img} alt="img" />
         </div>
         <div className="examples-card-text-block">

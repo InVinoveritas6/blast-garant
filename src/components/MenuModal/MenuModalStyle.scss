@@ -1,0 +1,36 @@
+.menu-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.menu-modal-content {
+    width: 60%;
+    height: 30%;
+}
+
+.menu-modal-el {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 1px solid #FED131 ;
+    a {
+        color: #fff;
+        text-decoration: none;
+    
+    }
+}
+
+.close-modal{
+    position: fixed;
+    top: 0;
+}

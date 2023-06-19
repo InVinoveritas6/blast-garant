@@ -21,3 +21,24 @@
     width: 15%;
     text-align: center;
 }
+
+@media (max-width: 1280px) {
+    .prices-table-element{
+        font-size: 12px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .prices-table-element{
+        font-size: 14px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .prices-table-element{
+        font-size: 12px;
+        height: 45px;
+    }
+}

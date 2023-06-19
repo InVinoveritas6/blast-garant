@@ -1,3 +1,5 @@
+import { useState, useEffect } from "react";
+
 //Components
 import CustomPageBlock from "../../components/CustomPageBlock/CustomPageBlock";
 import WorkInfoBlock from "../../components/WorkInfoBlock/WorkInfoBlock";
@@ -9,6 +11,12 @@ import { blocks, aboutUsText } from "./core/workInfoBlockContent";
 import "./AboutUsStyle.scss";
 
 const AboutUs = () => {
+  const [screenWidth, setScreenWidth] = useState();
+
+  useEffect(() => {
+    setScreenWidth(window.outerWidth);
+  }, []);
+
   return (
     <CustomPageBlock id="aboutUs" title={"О нас"}>
       <div className="about-us-block">
@@ -19,7 +27,7 @@ const AboutUs = () => {
             </div>
         </div>
         <div className="about-us-info-block">
-          <div className="about-us-blocks">
+          <div className={screenWidth <= 768 ? "about-us-blocks-mobile" :"about-us-blocks"}>
             {blocks.map((el, index) => {
               return (
                 <WorkInfoBlock img={el.img} title={el.title} text={el.text} key={index} index={index} />

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background: #1A1A1A;
     color: #fff;
@@ -67,5 +67,26 @@
         color: #fff;
     }
 
+}
+
+.burger {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1280px) {
+    .header-item a {
+        font-size: 18px;
+    }
+    .header{
+        height: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: end;
+    }
 }
 

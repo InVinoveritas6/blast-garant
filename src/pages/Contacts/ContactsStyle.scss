@@ -34,6 +34,10 @@
 .contacts-info {
     font-size: 20px;
     margin-bottom: 40px;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 .contacts-social-media{
@@ -41,5 +45,49 @@
     gap: 50px;
     img {
         cursor: pointer;
+    }
+}
+
+@media (max-width: 1280px) {
+    .contacts-title{
+        font-size: 54px;
+    }
+    .contacts-subtitle{
+        font-size: 20px;
+        margin: 25px 0;
+    }
+
+    .contacts-info{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .contacts-social-media {
+        img {
+            width: 40px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .contacts-title{
+        font-size: 34px;
+    }
+    .contacts-subtitle{
+        font-size: 14px;
+        margin: 25px 0;
+    }
+    .contacts-logo img {
+        width: 65px;
+        height: 56px;
+    }
+
+    .contacts-info{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .contacts-social-media {
+        img {
+            width: 30px;
+        }
     }
 }
