@@ -31,3 +31,50 @@
         margin: 0 1px;
     }
 }
+
+.swiper {
+    width: 100%;
+    height: 450px;
+    padding-top: 20px;
+  }
+  
+  .swiper-slide {
+    // text-align: center;
+    // font-size: 18px;
+//    background: #fff;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   bottom: 0;
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+  
+    // /* Center slide text vertically */
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+  }
+  .test3 {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+  }
+  
+//   .swiper-slide img {
+//     display: block;
+//     // width: 100%;
+//     // height: 100%;
+//     object-fit: cover;
+//   }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.mySwiper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
