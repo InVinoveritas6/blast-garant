@@ -45,5 +45,9 @@
     .title-block {
         font-size: 30px;
         padding: 20px;
+        height: 75px;
+    }
+    .custom-page-block {
+        height: calc(100vh - 80px);
     }
 }

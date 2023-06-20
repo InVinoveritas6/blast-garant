@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import CustomPageBlock from "../../components/CustomPageBlock/CustomPageBlock";
 import WorkInfoBlock from "../../components/WorkInfoBlock/WorkInfoBlock";
 
-// import f from './image/Rectangle3.png'
 //Core
 import { blocks, aboutUsText } from "./core/workInfoBlockContent";
 
