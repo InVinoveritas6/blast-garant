@@ -43,6 +43,9 @@ const Contacts = () => {
           </a>
           </div>
         </div>
+        <form action="mailto:BG80293197101@mail.ru">
+          <input className="button-mail" type="submit" value={'Отправить письмо'}/>
+        </form>
       </div>
     </CustomPageBlock>
   );
