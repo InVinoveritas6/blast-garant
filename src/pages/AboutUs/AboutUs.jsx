@@ -18,7 +18,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <CustomPageBlock id="aboutUs" title={"О нас"}>
+    <CustomPageBlock id="aboutUs" title={"О нас"} style={screenWidth <= 414 ? {height: "100vh"} :{ height: "calc(100vh - 50px)" }}>
       <div className="about-us-block">
         <div className="about-us-text-block">
             <div className="about-us-text">
