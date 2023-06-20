@@ -1,15 +1,32 @@
 {
   "files": {
-    "main.css": "/blast-garant/static/css/main.36260982.css",
-    "main.js": "/blast-garant/static/js/main.884d1a70.js",
+    "main.css": "/blast-garant/static/css/main.411d7bbb.css",
+    "main.js": "/blast-garant/static/js/main.e2eee3fd.js",
     "static/media/sandblaster.jfif": "/blast-garant/static/media/sandblaster.84ddc4849948aabb1139.jfif",
     "static/media/MainPageTablet.png": "/blast-garant/static/media/MainPageTablet.e72a92fbe5255ffe15ab.png",
+    "static/media/Rectangle6.png": "/blast-garant/static/media/Rectangle6.51a253f795cedd151c1f.png",
+    "static/media/Rectangle3.png": "/blast-garant/static/media/Rectangle3.e258ff2ccefb3248106e.png",
+    "static/media/Rectangle4.png": "/blast-garant/static/media/Rectangle4.c192d35e1089d984ecfa.png",
+    "static/media/Rectangle5.png": "/blast-garant/static/media/Rectangle5.1000867ace524dc108e3.png",
+    "static/media/4.png": "/blast-garant/static/media/4.9fb26743fe9684492ca3.png",
+    "static/media/6.png": "/blast-garant/static/media/6.ebcf64ba757fe3184dbc.png",
+    "static/media/5.png": "/blast-garant/static/media/5.59fd935cfcf2a32c2618.png",
+    "static/media/2.png": "/blast-garant/static/media/2.fc522adc6259ce19e429.png",
+    "static/media/1.png": "/blast-garant/static/media/1.71393880ff3e4838567f.png",
+    "static/media/3.png": "/blast-garant/static/media/3.6d65303ff436cd24c84b.png",
+    "static/media/Logo.png": "/blast-garant/static/media/Logo.ea1e62e4c9914c71f658.png",
+    "static/media/Viber.svg": "/blast-garant/static/media/Viber.d843607662e7340038e7e471c0159417.svg",
+    "static/media/whatsApp.svg": "/blast-garant/static/media/whatsApp.382e5be142c36ad2014ebae90260c330.svg",
+    "static/media/GoldStars.svg": "/blast-garant/static/media/GoldStars.a254f623ea3c6824a8153401a348f1ea.svg",
+    "static/media/Star.svg": "/blast-garant/static/media/Star.30d6aecd61abf454b53c1754f6c1a5dd.svg",
+    "static/media/telegram.svg": "/blast-garant/static/media/telegram.c1c4bf0da37294d8673033d7a80fe3a3.svg",
     "index.html": "/blast-garant/index.html",
-    "main.36260982.css.map": "/blast-garant/static/css/main.36260982.css.map",
-    "main.884d1a70.js.map": "/blast-garant/static/js/main.884d1a70.js.map"
+    "static/media/burger-simple-svgrepo-com.svg": "/blast-garant/static/media/burger-simple-svgrepo-com.b0973f53b2b9dedf49e37bed6f2e6572.svg",
+    "main.411d7bbb.css.map": "/blast-garant/static/css/main.411d7bbb.css.map",
+    "main.e2eee3fd.js.map": "/blast-garant/static/js/main.e2eee3fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.36260982.css",
-    "static/js/main.884d1a70.js"
+    "static/css/main.411d7bbb.css",
+    "static/js/main.e2eee3fd.js"
   ]
 }
