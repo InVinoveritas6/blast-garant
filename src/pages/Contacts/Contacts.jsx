@@ -22,12 +22,12 @@ const Contacts = () => {
         </div>
         <div className="contacts-social-media">
           <div className="whats-app">
-            <a href="https://wa.me/375291305307">
+            <a href="https://wa.me/375293197101">
                  <img src="/images/contacts/whatsApp.svg" alt={'socialMedia'} />
             </a>
           </div>
           <div className="viber">
-            <a href="viber://chat?number=%2B375291305307">
+            <a href="https://skobelkin.ru/viber/375293197101">
                 <img src="/images/contacts/Viber.svg" alt={'socialMedia'} />
             </a>
           </div>
