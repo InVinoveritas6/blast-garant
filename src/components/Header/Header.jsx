@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 
 import { headerLinks } from "./core/header";
 
+import Burger from "./image/svg/burger-simple-svgrepo-com.svg"
+
 //Components
 import MenuModal from "../MenuModal/MenuModal";
 //Style
@@ -22,7 +24,7 @@ const Header = ({ page, setPage }) => {
     <div className="header">
       {screenWidth <= 768
         ? <div className="burger">
-          <img src="/images/Header/svg/burger-simple-svgrepo-com.svg" onClick={() => setModalVisible(true)}/>
+          <img src={Burger} onClick={() => setModalVisible(true)} alt="burger"/>
          </div>
         : headerLinks.map((el, index) => {
             return (

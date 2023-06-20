@@ -25,7 +25,7 @@ const ExamplesPage = () => {
     <CustomPageBlock id={"examples"} title={"Примеры работ"}>
       <div className="examples">
         <div className="examples-block">
-          {screenWidth <= 375 ? (
+          {screenWidth <= 414 ? (
             <Swiper
             slidesPerView={1}
             grid={{

@@ -4,7 +4,6 @@ import "./MenuModalStyle.scss";
 
 const MenuModal = ({setModalVisible, modalVisible}) => {
     if (modalVisible) {
-        console.log(window);
         window.scrollY = false
        
     }

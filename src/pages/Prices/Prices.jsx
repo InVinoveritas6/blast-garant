@@ -20,7 +20,7 @@ const Prices = () => {
     <CustomPageBlock
       id={"prices"}
       title={"Цены"}
-      style={screenWidth <= 375 ? {height: "110vh"} :{ height: "calc(100vh - 50px)" }}
+      style={screenWidth <= 414 ? {height: "110vh"} :{ height: "calc(100vh - 50px)" }}
     >
       <div className="prices">
         <div className="prices-table-block">

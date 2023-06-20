@@ -1,5 +1,11 @@
 //Components
 import CustomPageBlock from "../../components/CustomPageBlock/CustomPageBlock";
+
+import Viber from "./image/Viber.svg"
+import Telegram from "./image/telegram.svg"
+import Whatapp from "./image/whatsApp.svg"
+import Logo from "./image/Logo.png"
+
 //Style
 import "./ContactsStyle.scss";
 
@@ -9,7 +15,7 @@ const Contacts = () => {
       <div className="contacts">
         <div className="contacts-logo-block">
           <div className="contacts-logo">
-            <img src="/images/Logo.png" alt="logo" />
+            <img src={Logo} alt="logo" />
           </div>
           <div className="contacts-title">blast garant</div>
         </div>
@@ -23,17 +29,17 @@ const Contacts = () => {
         <div className="contacts-social-media">
           <div className="whats-app">
             <a href="https://wa.me/375293197101">
-                 <img src="/images/contacts/whatsApp.svg" alt={'socialMedia'} />
+                 <img src={Whatapp} alt={'socialMedia'} />
             </a>
           </div>
           <div className="viber">
             <a href="https://skobelkin.ru/viber/375293197101">
-                <img src="/images/contacts/Viber.svg" alt={'socialMedia'} />
+                <img src={Viber} alt={'socialMedia'} />
             </a>
           </div>
           <div className="telegram">
           <a href="https://t.me/InVinoVeritas6">
-              <img src="/images/contacts/telegram.svg" alt={'socialMedia'} />
+              <img src={Telegram} alt={'socialMedia'} />
           </a>
           </div>
         </div>

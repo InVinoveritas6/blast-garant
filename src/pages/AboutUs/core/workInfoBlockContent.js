@@ -1,23 +1,29 @@
+import rect1 from "../image/Rectangle3.png"
+import rect2 from "../image/Rectangle4.png"
+import rect3 from "../image/Rectangle5.png"
+import rect4 from "../image/Rectangle6.png"
+
+
 export const blocks = [
   {
-    img: "/images/AboutUs/Rectangle3.png",
+    img: rect1,
     title: "пескоструйная обработка",
     text: ` Технологическая операция, которая позволяет чистить
     металлоконструкции и широкий спектр иных поверхностей от коррозийных
     и многих иных дефектов`,
   },
   {
-    img: "/images/AboutUs/Rectangle4.png",
+    img: rect2,
     title: "покраска",
     text: `После пескоструйной обработки, обежиривания и грунтования происходит процесс покраски изделия`,
   },
   {
-    img: "/images/AboutUs/Rectangle5.png",
+    img: rect3,
     title: "грунтование",
     text: `После пескоструйной обработки металла необходимо обезжирить и покрыть грунтом перед покраской.`,
   },
   {
-    img: "/images/AboutUs/Rectangle6.png",
+    img: rect4,
     title: "холодное цинкование",
     text: `Технология, предполагающая антикоррозийную обработку с применением цинковых покрытий, которые наносятся на поверхность металла, как обычные краски.`,
   },
