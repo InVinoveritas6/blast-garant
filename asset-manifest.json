@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blast-garant/static/css/main.b651f987.css",
+    "main.css": "/blast-garant/static/css/main.81edb4f6.css",
     "main.js": "/blast-garant/static/js/main.e2eee3fd.js",
     "static/media/sandblaster.jfif": "/blast-garant/static/media/sandblaster.84ddc4849948aabb1139.jfif",
     "static/media/MainPageTablet.png": "/blast-garant/static/media/MainPageTablet.e72a92fbe5255ffe15ab.png",
@@ -22,11 +22,11 @@
     "static/media/telegram.svg": "/blast-garant/static/media/telegram.c1c4bf0da37294d8673033d7a80fe3a3.svg",
     "index.html": "/blast-garant/index.html",
     "static/media/burger-simple-svgrepo-com.svg": "/blast-garant/static/media/burger-simple-svgrepo-com.b0973f53b2b9dedf49e37bed6f2e6572.svg",
-    "main.b651f987.css.map": "/blast-garant/static/css/main.b651f987.css.map",
+    "main.81edb4f6.css.map": "/blast-garant/static/css/main.81edb4f6.css.map",
     "main.e2eee3fd.js.map": "/blast-garant/static/js/main.e2eee3fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.b651f987.css",
+    "static/css/main.81edb4f6.css",
     "static/js/main.e2eee3fd.js"
   ]
 }
