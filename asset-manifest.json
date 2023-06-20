@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blast-garant/static/css/main.36260982.css",
+    "main.js": "/blast-garant/static/js/main.884d1a70.js",
+    "static/media/sandblaster.jfif": "/blast-garant/static/media/sandblaster.84ddc4849948aabb1139.jfif",
+    "static/media/MainPageTablet.png": "/blast-garant/static/media/MainPageTablet.e72a92fbe5255ffe15ab.png",
+    "index.html": "/blast-garant/index.html",
+    "main.36260982.css.map": "/blast-garant/static/css/main.36260982.css.map",
+    "main.884d1a70.js.map": "/blast-garant/static/js/main.884d1a70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36260982.css",
+    "static/js/main.884d1a70.js"
+  ]
+}
