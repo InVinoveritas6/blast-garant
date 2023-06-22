@@ -48,6 +48,20 @@
     }
 }
 
+.button-mail {
+    width: 500px;
+    height: 60px;
+    background: #FED131;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
 @media (max-width: 1280px) {
     .contacts-title{
         font-size: 54px;
@@ -65,6 +79,11 @@
         img {
             width: 40px;
         }
+    }
+    .button-mail {
+        width: 400px;
+        height: 50px;
+        font-size: 24px;
     }
 }
 
@@ -89,5 +108,10 @@
         img {
             width: 30px;
         }
+    }
+    .button-mail {
+        width: 220px;
+        height: 35px;
+        font-size: 14px;
     }
 }
