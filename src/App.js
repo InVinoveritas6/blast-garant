@@ -17,7 +17,7 @@ const App = () => {
   const [page, setPage] = useState('#mainPage')
 
   return (
-    <div className='app'>
+    <div className='app' id="version 1.1">
       <Header page={page} setPage={setPage} />
       <div className='body'>
         <MainPage/>
